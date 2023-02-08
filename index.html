@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Sign-Up Form</title>
+        <link rel="icon" href="./create-account.png">
+    </head>
+
+    <body>
+        <main class="container">
+            <div class="left-side">
+                <div class="logo">
+                    <img src="./odin-lined.png" alt="logo" class="odin">
+                    <h1 class="odin-logo">Odin</h1>
+                </div>
+                <img src="./eugene-golovesov-A_Q6mjGxuyU-unsplash.jpg" alt="image" class="image">
+                <p>Photo by <a
+                        href="https://unsplash.com/@eugene_golovesov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Eugene
+                        Golovesov</a> on <a
+                        href="https://unsplash.com/photos/A_Q6mjGxuyU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                </p>
+            </div>
+
+            <div class="right-side">
+                <div class="form text">
+                    <p>This is not a real online service! This is a dummy text just to make the form look cool!</p>
+                    <p>Sign up <em>now</em> to get started.</p>
+                    <p class="form text text">You <em>know</em> you want to.</p>
+                </div>
+
+                <form action="#" method="post">
+                    <div class="title">
+                        <p class="form-title">Let's do this!</p>
+
+                        <div class="user-input">
+                            <label for="first_name">First Name</label>
+                            <input type="text" name="first_name" id="first_name" placeholder="John...">
+                        </div>
+
+                        <div class="user-input">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" name="last_name" id="last_name" placeholder="Doe...">
+                        </div>
+
+                        <div class="user-input">
+                            <label for="user_email">*Email</label>
+                            <input type="email" name="user_email" id="user_name" placeholder="me@example.com" required>
+                        </div>
+
+                        <div class="user-input">
+                            <label for="phone_number">Phone Number</label>
+                            <input type="tel" name="phone_number" id="phone_number" minlength="10" maxlength="13"
+                                placeholder="+27720850414">
+                        </div>
+
+                        <div class="user-input">
+                            <label for="user_password">*Password</label>
+                            <input type="password" id="user_password" name="user_password" required>
+                        </div>
+
+                        <div class="user-input">
+                            <label for="confirm_password">*Confirm Password</label>
+                            <input type="password" id="confirm_password" name="confirm_password" required>
+                        </div>
+
+                        <div class="submit-btn">
+                            <button type="submit">Create Account</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="login">
+                    <p>Already have an account?</p>
+                    <a href="#">Log in</a>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="text-center">
+                <span>Copyright &copy;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                    Sign-Up Form.
+                </span>
+            </div>
+            <a href="https://www.flaticon.com/free-icons/signup" title="signup icons">Signup icons created by Irvan
+                Kurnianto - Flaticon</a>
+        </footer>
+    </body>
+
+</html>
